@@ -4,10 +4,10 @@ class Solution(object):
         dp[0] = 0
         for cap in range(1, amount + 1):
             for coin in coins:
-                if cap >= coin:
-                    dp[cap] = min(dp[cap], dp[cap - coin] + 1)
+                if coin <= cap:
+                    dp[cap] = min(dp[cap], dp[cap-coin] + 1)
         if dp[amount] <= amount:
             return dp[amount]
         else:
-            return -1
-        
+            return -1 		
+	

@@ -1,3 +1,6 @@
+#chia 3 case
+#case cuoi dung queue luu tru mang truoc
+#dung mang truoc build mang sau den khi du thi dung
 class Solution(object):
     def generate(self, numRows):
         if numRows == 1:

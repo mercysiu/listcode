@@ -4,7 +4,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-#
+# moi lan di xuong thi targetSum giam dan
+# den nut la kiem tra dieu kien( thoa thi tra ve True)
+# de quy 2 nhanh( dung or de lay duoc ket qua neu 1 nhanh thoa)
 class Solution(object):
     def hasPathSum(self, root, targetSum):
         if not root:

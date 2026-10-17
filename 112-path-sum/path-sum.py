@@ -13,8 +13,6 @@ class Solution(object):
         if root.left is None and root.right is None:
             if target == 0:
                 return True
-            if target != 0:
-                return False
         return self.hasPathSum(root.left, target) or self.hasPathSum(root.right, target)
         
 

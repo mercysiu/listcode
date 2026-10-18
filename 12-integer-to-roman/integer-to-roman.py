@@ -1,3 +1,7 @@
+# chay lan luot tu phai sang(phan nghin, phan tram, phan chuc, don vi)
+# tru truong hop dau neu thoa chi can them M do gioi han de 1<= num <= 3999
+# cac truong hop sau chi can thoa 4 9 < 4 > 5
+# qua moi hang tu thi nums tru di hang tu truoc do
 class Solution(object):
     def intToRoman(self, num):
         nums = num

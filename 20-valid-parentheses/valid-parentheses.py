@@ -20,9 +20,10 @@ class Solution(object):
                     if i == '}':
                         if p_o != '{':
                             return False
-        if len(stack) != 0:
+        if not stack:
+            return True
+        else:
             return False
-        return True
 
                     
     
